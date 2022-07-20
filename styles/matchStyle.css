@@ -133,22 +133,50 @@ body{
     
 }
 
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-banner{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+.blog-banner p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.blog-title p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.blog-title h2{
+    text-align: center;
+   
+}
 
 
 .blog .blog-banner img{
-    width: 300px;
-    height: 175px;
+    width: 93px;
+    height: 56px;
 }
 
 /* giving border to blog details*/
 
-.blog-details{
+.blog{
     border: 2px solid #E8E8E8;
     border-radius: 5px;
-    padding: 3%;
-    border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    padding: 30px;
+    margin-left: 5px;
+   
     
 }
 
@@ -295,15 +323,6 @@ hr{
         margin-right: 60px;
     }
 
-    .blog-details{
-        border: 2px solid #E8E8E8;
-        border-radius: 5px;
-        padding: 3%;
-        border-top: none;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        
-    }
     
 
     footer{
@@ -430,21 +449,31 @@ hr{
     .second-part{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        margin-left: 50px;
+        margin-left: 35px;
+        margin-right: 40px;
         
         
         
     }
 
-    .blog .blog-banner img{
-        width: 330px;
-        height: 175px;
-    }
     
-    .blog-details{
-       margin-right:50px ;
-        
+    
+
+    .blog .blog-banner img{
+        width: 93px;
+        height: 56px;
     }
+
+    .blog{
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 5px;
+   
+    
+}
+    
+    
     
 
     footer{
