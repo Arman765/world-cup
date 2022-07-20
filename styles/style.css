@@ -58,17 +58,17 @@ body{
 
 .header-text a{
     text-decoration: none;
-    color: white;
-    background-color: #F68815;
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
     padding: 1%;
     border-radius: 5px;
     transition: background-color 2s ease 100ms,color 1s ease 100ms,padding 1s ease 100ms
 }
 
 .header-text a:hover{
-    background-color: white;
-    color: black;
-    padding: 0 20px 0 20px;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    padding: 10px 20px 10px 20px;
 }
 
 /* arrow font awesome */
@@ -91,7 +91,7 @@ body{
 /* first-part of the main section*/
 
 .first-part{
-    background-color: #161616;
+    background-color: #00203FFF;
     width: 312px;
     height: 312px;
     border-radius: 5px;
@@ -114,8 +114,8 @@ body{
 
 .segments a{
     text-decoration: none;
-    color: white;
-    background-color: #F68815;
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
     padding: 2%;
     border-radius: 5px;
     margin-top: 30px;
@@ -224,12 +224,13 @@ hr{
 }
 .ViewAll a{
     text-decoration: none;
-    color: white;
-    background-color: #F68815;
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
     border-radius: 3px;
     padding:10px 20px;
     
 }
+
 
 
  /* disable button viewall */
