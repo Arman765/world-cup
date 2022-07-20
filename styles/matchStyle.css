@@ -54,13 +54,23 @@ body{
 
 /* header Anchor styles */
 
+/* and a small animation in the anchor */
+
 .header-text a{
     text-decoration: none;
     color: white;
-    background-color: #DD0000;
+    background-color: #F68815;
     padding: 1%;
     border-radius: 5px;
+    transition: background-color 2s ease 100ms,color 1s ease 100ms,padding 1s ease 100ms
 }
+
+.header-text a:hover{
+    background-color: white;
+    color: black;
+    padding: 0 20px 0 20px;
+}
+
 
 /* arrow font awesome */
 
@@ -106,7 +116,7 @@ body{
 .segments a{
     text-decoration: none;
     color: white;
-    background-color: #DD0000;
+    background-color: #F68815;
     padding: 2%;
     border-radius: 5px;
     margin-top: 30px;
@@ -244,7 +254,7 @@ hr{
 .ViewAll a{
     text-decoration: none;
     color: white;
-    background-color: #DD0000;
+    background-color: #F68815;
     border-radius: 3px;
     padding:10px 20px;
     
@@ -254,6 +264,20 @@ hr{
  /* disable button viewall */
  .ViewAll{
     visibility: hidden;
+}
+
+
+.social-icon{
+    margin-top: 30px;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+
+.social-icon a{
+    margin-left: 30px;
+    
+    
 }
 
 
@@ -284,6 +308,11 @@ hr{
     .header-text{
         margin-left: 20px;
     }
+
+    .header-text a{
+        padding: 5px 10px;
+    }
+   
    
     .header-img{
         margin-top: 0;
@@ -358,7 +387,11 @@ hr{
     .ViewAll{
         visibility: hidden;
     }
-    
+
+
+   .fa-github{
+    margin-bottom:50px ;
+   }
 
     
 }
@@ -385,6 +418,9 @@ hr{
 
     .header-text{
         margin-left: 20px;
+    }
+    .header-text a{
+        padding: 5px 10px;
     }
    
     .header-img{
@@ -520,6 +556,9 @@ hr{
         visibility: visible;
     }
     
+    .fa-github{
+        margin-bottom:50px ;
+    }
 
     
 
